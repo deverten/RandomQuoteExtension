@@ -1,7 +1,7 @@
 {
     "name": "Random Quote Extension for Chrome",
-    "description": "An Extension that shows random quotes as notification on the browser",
-    "version": "1.0",
+    "description": "A Chrome Extension that shows random quotes as notification",
+    "version": "1.0.0",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
@@ -10,11 +10,15 @@
     "action": {
         "default_icon": {
             "16": "/images/favicon-16x16.png",
-            "32": "/images/favicon-32x32.png"
+            "48": "/images/android-chrome-512x512.png",
+            "128": "/images/android-chrome-192x192.png"
+
         }
     },
     "icons": {
         "16": "/images/favicon-16x16.png",
-        "32": "/images/favicon-32x32.png"   
+        "48": "/images/android-chrome-512x512.png",
+        "128": "/images/android-chrome-192x192.png"
+   
     }
 }
